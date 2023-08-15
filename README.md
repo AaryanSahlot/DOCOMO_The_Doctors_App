@@ -1,4 +1,8 @@
 # DOCOMO_The_Doctors_App
+App Icon
+
+
+![Screenshot 2023-08-16 012011](https://github.com/AaryanSahlot/DOCOMO_The_Doctors_App/assets/137866460/a5d7ad55-2f36-4f98-b979-873ac8cc278a)
 
 DOCOMO is a revolutionary medical app designed to provide users with seamless access to a diverse array of healthcare professionals. With an intuitive interface, the app categorizes doctors into various specialties, ranging from highly skilled physicians and neurologists to ENT specialists, dentists, ophthalmologists, orthopedists, and gastroenterologists. Whether you're seeking expert advice, scheduling appointments, or simply exploring options, DOCOMO ensures that users can effortlessly navigate through the comprehensive list of healthcare providers. This app redefines the way patients connect with their desired medical experts, making the process efficient, informed, and ultimately fostering a healthier society.
 
