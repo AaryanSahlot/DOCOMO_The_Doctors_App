@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mastercoding.docomothedoctorsapp">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DOCOMOTheDoctorsApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity3_Gastro"
+            android:exported="false"
+            android:label="GASTROENTEROLOGIST"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity3_Orthopaedist"
+            android:exported="false"
+            android:label="ORTHOPAEDISTS"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity3_EyeDoctor"
+            android:exported="false"
+            android:label="EYE SPECIALISTS"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity3_Dentist"
+            android:exported="false"
+            android:label="DENTISTS"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity3_ENTDoctor"
+            android:exported="false"
+            android:label="ENT SPECIALISTS"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity3_Neurologist"
+            android:exported="false"
+            android:label="NEUROLOGISTS"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity3_Physician"
+            android:exported="false"
+            android:label="PHYSICIANS"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="Docomo: Type of Doctor"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Docomo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

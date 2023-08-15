@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/background_internal_app">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:id="@+id/ll"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image1"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/physician1"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:background="@drawable/background_for_button"
+                    android:id="@+id/button2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Physician"
+                    android:textSize="20sp"
+                    app:backgroundTint="#03A4F9"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image2"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/neuro"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:background="@drawable/background_for_button"
+                    android:id="@+id/button2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Neurologist"
+                    android:textSize="20sp"
+                    app:backgroundTint="#03A4F9"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image3"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/ent"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:background="@drawable/background_for_button"
+                    android:id="@+id/button2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ENT Specialist"
+                    android:textSize="20sp"
+                    app:backgroundTint="#03A4F9"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image4"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/dentist"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:background="@drawable/background_for_button"
+                    android:id="@+id/button2_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dentist"
+                    android:textSize="20sp"
+                    app:backgroundTint="#03A4F9"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image5"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/eyespecialist"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:background="@drawable/background_for_button"
+                    android:id="@+id/button2_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eye Specialist"
+                    android:textSize="20sp"
+                    app:backgroundTint="#03A4F9"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image6"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/ortho"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:background="@drawable/background_for_button"
+                    android:id="@+id/button2_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Orthopaedist"
+                    android:textSize="20sp"
+                    app:backgroundTint="#03A4F9"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image7"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:src="@drawable/gastro"
+                    android:layout_margin="10dp"/>
+
+                <Button
+                    android:background="@drawable/background_for_button"
+                    android:id="@+id/button2_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gastro"
+                    android:textSize="20sp"
+                    app:backgroundTint="#03A4F9"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

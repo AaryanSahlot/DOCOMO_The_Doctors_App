@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <gradient-->
+<!--        android:angle="45"-->
+<!--        android:startColor="#d4d700"-->
+<!--        android:centerColor="#80b918"-->
+<!--        android:endColor="#007f5f"/>-->
+
+<!--    <stroke-->
+<!--        android:color="#ffffff"-->
+<!--        android:width="12dp"/>-->
+
+    <corners
+        android:radius="12dp"/>
+
+
+
+</shape>
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--<gradient-->
+<!--    android:angle="45"-->
+<!--    android:startColor="#d4d700"-->
+<!--    android:centerColor="#80b918"-->
+<!--    android:endColor="#007f5f"/>-->
+
+<!--<corners-->
+<!--    android:radius="12dp"/>-->
+
+<!--<stroke-->
+<!--    android:width="2dp"-->
+<!--    android:color="#386641"/>-->
+
+<!--<padding-->
+<!--    android:bottom="2dp"-->
+<!--    android:top="2dp"-->
+<!--    android:right="2dp"-->
+<!--    android:left="2dp"/>-->
+
+<!--</shape>-->
